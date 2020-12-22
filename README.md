@@ -65,6 +65,9 @@ createAtom("rootStore"), observable.object(), reaction,
 https://mobx.js.org/custom-observables.html
 
 
+## UI: react-bootstrap / ant.design / tailwind.css
+
+
 ## Available Scripts
 
 ### npm start
