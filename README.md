@@ -40,6 +40,26 @@ https://www.snowpack.dev/posts/2020-12-03-snowpack-3-release-candidate
 
 ** snowpack currently doesn't have ssr static export like react-snap/next.js **
 
+## State Managment: MobX-keystone State Tree
+[MobX 6](https://mobx.js.org/README.html)
+
+[MobX-keystone](https://mobx-keystone.js.org/)
+typescript Class models, are like objects but enhanced with local behaviors (actions/views) and life-cycle events (hooks).
+`@model("App/Todo")
+export class Todo extends Model({
+  text: prop<string>({ setterAction: true }),
+  done: prop(false, { setterAction: true }),
+}) {}
+const myTodo = new Todo({ text: "" })`
+
+
+keystone uses internally:
+createAtom("rootStore"), observable.object(), reaction, 
+& action, computed,  , runInAction
+
+https://mobx.js.org/custom-observables.html
+
+
 ## Available Scripts
 
 ### npm start
