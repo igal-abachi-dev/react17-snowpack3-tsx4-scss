@@ -11,11 +11,11 @@ To leaרמ [Scss](https://sass-lang.com/documentation)
 
 ## Installation
 
-### npm install
+`npm install`
 and then:
-### npm start
+`npm start`
 or
-### npm run build
+`npm run build`
 
 
 ## Snowpack
