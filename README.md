@@ -3,7 +3,11 @@ minimal template for Snowpack 3 with React 17 , TypeScript 4 TSX &amp; SCSS modu
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React 17 documentation](https://reactjs.org/).
+
+To learn [TypeScript 4.1](https://www.typescriptlang.org/docs)
+
+To leanr [Scss](https://sass-lang.com/documentation)
 
 ## Snowpack
 
