@@ -7,7 +7,7 @@ To learn React, check out the [React 17 documentation](https://reactjs.org/).
 
 To learn [TypeScript 4.1](https://www.typescriptlang.org/docs)
 
-To leaרמ [Scss](https://sass-lang.com/documentation)
+To learn [Scss](https://sass-lang.com/documentation)
 
 ## Installation
 
