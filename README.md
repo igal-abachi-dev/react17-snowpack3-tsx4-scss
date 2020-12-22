@@ -45,12 +45,14 @@ https://www.snowpack.dev/posts/2020-12-03-snowpack-3-release-candidate
 
 [MobX-keystone](https://mobx-keystone.js.org/)
 typescript Class models, are like objects but enhanced with local behaviors (actions/views) and life-cycle events (hooks).
-`@model("App/Todo")
+```
+@model("App/Todo")
 export class Todo extends Model({
   text: prop<string>({ setterAction: true }),
   done: prop(false, { setterAction: true }),
 }) {}
-const myTodo = new Todo({ text: "" })`
+const myTodo = new Todo({ text: "" })
+```
 
 
 keystone uses internally:
