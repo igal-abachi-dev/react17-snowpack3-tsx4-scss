@@ -3,7 +3,38 @@ minimal template for Snowpack 3 with React 17 , TypeScript 4 TSX &amp; SCSS modu
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React 17 documentation](https://reactjs.org/).
+
+To learn [TypeScript 4.1](https://www.typescriptlang.org/docs)
+
+To learn [Scss](https://sass-lang.com/documentation)
+
+## Installation
+
+`npm install`
+and then:
+`npm start`
+or
+`npm run build`
+
+
+## Snowpack
+
+Snowpack is a lightning-fast frontend build tool, designed to leverage JavaScript's native module system (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import">known as ESM</a>). It is an alternative to heavier, more complex bundlers like webpack or Parcel in your development workflow.
+
+### this is Snowpack 3.0 RC2 (snowpack@next)
+https://www.snowpack.dev/posts/2020-12-03-snowpack-3-release-candidate
+
+### Key Features
+
+- Develop faster, with a dev server that starts up in **50ms or less.**
+- See changes reflected [instantly in the browser.](https://www.snowpack.dev/concepts/hot-module-replacement)
+- Integrate your favorite bundler for a [production-optimized build.](https://www.snowpack.dev/concepts/build-pipeline)
+- Enjoy out-of-the-box support for [TypeScript, JSX, CSS Modules and more.](https://www.snowpack.dev/reference/supported-files)
+- Connect your favorite tools with [third-party plugins.](https://www.snowpack.dev/plugins)
+
+** More info at the official [Snowpack website ➞](https://snowpack.dev)**
+
 
 ## Available Scripts
 
