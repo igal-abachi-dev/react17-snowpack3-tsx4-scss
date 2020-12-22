@@ -36,6 +36,10 @@ https://www.snowpack.dev/posts/2020-12-03-snowpack-3-release-candidate
 ** More info at the official [Snowpack website ➞](https://snowpack.dev)**
 
 
+`snowpack --help`
+
+** snowpack currently doesn't have ssr static export like react-snap/next.js **
+
 ## Available Scripts
 
 ### npm start
