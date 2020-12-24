@@ -1,21 +1,34 @@
 {
-  "include": ["src", "types"],
+  "include": [
+    "src",
+    "types"
+  ],
   "compilerOptions": {
-    "module": "esnext",
     "target": "esnext",
-    "moduleResolution": "node",
     "jsx": "preserve",
     "baseUrl": "./",
     /* paths - If you configure Snowpack import aliases, add them here. */
     "paths": {},
-    /* noEmit - Snowpack builds (emits) files, not tsc. */
-    "noEmit": true,
-    /* Additional Options */
-    "strict": true,
+    /*"lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],*/
+    //"allowJs": true,//false
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
+    //"esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "importsNotUsedAsValues": "error"
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    //"noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "preserve",
+    //"isolatedModules": true,
+
+    /* noEmit - Snowpack builds (emits) files, not tsc. */
+    "noEmit": true
+    //"jsx": "react-jsx"
   }
 }

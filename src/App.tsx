@@ -1,8 +1,10 @@
+import styles from './App.module.scss';
+
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
-import styles from  './App.module.scss';
 
-interface AppProps {}
+interface AppProps {
+}
 
 function App({}: AppProps) {
   // Create the count state.
@@ -15,8 +17,8 @@ function App({}: AppProps) {
   // Return the App component.
   return (
     <div className={styles.App}>
-      <header className={styles["App-header"]}>
-       <img src={logo} className={styles["App-logo"]} alt="logo" />
+      <header className={styles['App-header'] + ' ' + styles['App-flex']}>
+        <img src={logo} className={styles['App-logo']} alt='logo' />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -25,10 +27,10 @@ function App({}: AppProps) {
         </p>
         <p>
           <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
+            className='App-link'
+            href='https://reactjs.org'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             Learn React
           </a>

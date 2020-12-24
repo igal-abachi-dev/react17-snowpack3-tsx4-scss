@@ -62,3 +62,9 @@ No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
 
 Launches the application test runner.
 Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+
+
+
+## Deploy on Vercel
+
+The easiest way to deploy your app is to use the [Vercel Platform](https://vercel.com/)

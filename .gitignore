@@ -3,6 +3,7 @@
 build
 .build
 /build
+/dist
 
 # Dependency directories
 node_modules/
@@ -121,6 +122,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# vercel
+.vercel
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
